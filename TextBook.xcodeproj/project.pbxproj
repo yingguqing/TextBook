@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF47F49E1EFE3929005E2033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F49D1EFE3929005E2033 /* AppDelegate.swift */; };
+		EF47F4A01EFE3929005E2033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F49F1EFE3929005E2033 /* ViewController.swift */; };
+		EF47F4A31EFE3929005E2033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47F4A11EFE3929005E2033 /* Main.storyboard */; };
+		EF47F4A61EFE3929005E2033 /* TextBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4A41EFE3929005E2033 /* TextBook.xcdatamodeld */; };
+		EF47F4A81EFE3929005E2033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF47F4A71EFE3929005E2033 /* Assets.xcassets */; };
+		EF47F4AB1EFE3929005E2033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47F4A91EFE3929005E2033 /* LaunchScreen.storyboard */; };
+		EF47F4B51EFE3E0A005E2033 /* RuleFileTB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4B31EFE3E0A005E2033 /* RuleFileTB+CoreDataClass.swift */; };
+		EF47F4B61EFE3E0A005E2033 /* RuleFileTB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4B41EFE3E0A005E2033 /* RuleFileTB+CoreDataProperties.swift */; };
+		EF47F4BB1EFE3E1D005E2033 /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4B71EFE3E1D005E2033 /* AppStatus.swift */; };
+		EF47F4BC1EFE3E1D005E2033 /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4B81EFE3E1D005E2033 /* BookEntity.swift */; };
+		EF47F4BD1EFE3E1D005E2033 /* RuleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4B91EFE3E1D005E2033 /* RuleFile.swift */; };
+		EF47F4BE1EFE3E1D005E2033 /* YNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4BA1EFE3E1D005E2033 /* YNotification.swift */; };
+		EF47F4C21EFE3FD0005E2033 /* RuleFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4C11EFE3FD0005E2033 /* RuleFileViewController.swift */; };
+		EF47F4C41EFE405C005E2033 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47F4C31EFE405C005E2033 /* BookViewController.swift */; };
+		EF661C911EFE44DA00C5FC0A /* BookRule.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF661C901EFE44DA00C5FC0A /* BookRule.plist */; };
+		EF661C991EFE571C00C5FC0A /* AllBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF661C981EFE571C00C5FC0A /* AllBookViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF47F49A1EFE3929005E2033 /* TextBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47F49D1EFE3929005E2033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF47F49F1EFE3929005E2033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF47F4A21EFE3929005E2033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF47F4A51EFE3929005E2033 /* TextBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextBook.xcdatamodel; sourceTree = "<group>"; };
+		EF47F4A71EFE3929005E2033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF47F4AA1EFE3929005E2033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF47F4AC1EFE3929005E2033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47F4B31EFE3E0A005E2033 /* RuleFileTB+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RuleFileTB+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF47F4B41EFE3E0A005E2033 /* RuleFileTB+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RuleFileTB+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EF47F4B71EFE3E1D005E2033 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
+		EF47F4B81EFE3E1D005E2033 /* BookEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		EF47F4B91EFE3E1D005E2033 /* RuleFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleFile.swift; sourceTree = "<group>"; };
+		EF47F4BA1EFE3E1D005E2033 /* YNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNotification.swift; sourceTree = "<group>"; };
+		EF47F4C11EFE3FD0005E2033 /* RuleFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleFileViewController.swift; sourceTree = "<group>"; };
+		EF47F4C31EFE405C005E2033 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		EF661C901EFE44DA00C5FC0A /* BookRule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookRule.plist; sourceTree = "<group>"; };
+		EF661C981EFE571C00C5FC0A /* AllBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllBookViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF47F4971EFE3929005E2033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF47F4911EFE3929005E2033 = {
+			isa = PBXGroup;
+			children = (
+				EF47F49C1EFE3929005E2033 /* TextBook */,
+				EF47F49B1EFE3929005E2033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF47F49B1EFE3929005E2033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF47F49A1EFE3929005E2033 /* TextBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF47F49C1EFE3929005E2033 /* TextBook */ = {
+			isa = PBXGroup;
+			children = (
+				EF47F4B21EFE3DFE005E2033 /* Class */,
+				EF47F49D1EFE3929005E2033 /* AppDelegate.swift */,
+				EF47F49F1EFE3929005E2033 /* ViewController.swift */,
+				EF47F4C31EFE405C005E2033 /* BookViewController.swift */,
+				EF47F4C11EFE3FD0005E2033 /* RuleFileViewController.swift */,
+				EF661C981EFE571C00C5FC0A /* AllBookViewController.swift */,
+				EF47F4A11EFE3929005E2033 /* Main.storyboard */,
+				EF47F4A71EFE3929005E2033 /* Assets.xcassets */,
+				EF47F4A91EFE3929005E2033 /* LaunchScreen.storyboard */,
+				EF47F4AC1EFE3929005E2033 /* Info.plist */,
+				EF661C901EFE44DA00C5FC0A /* BookRule.plist */,
+				EF47F4A41EFE3929005E2033 /* TextBook.xcdatamodeld */,
+			);
+			path = TextBook;
+			sourceTree = "<group>";
+		};
+		EF47F4B21EFE3DFE005E2033 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EF47F4B31EFE3E0A005E2033 /* RuleFileTB+CoreDataClass.swift */,
+				EF47F4B41EFE3E0A005E2033 /* RuleFileTB+CoreDataProperties.swift */,
+				EF47F4B71EFE3E1D005E2033 /* AppStatus.swift */,
+				EF47F4B81EFE3E1D005E2033 /* BookEntity.swift */,
+				EF47F4B91EFE3E1D005E2033 /* RuleFile.swift */,
+				EF47F4BA1EFE3E1D005E2033 /* YNotification.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF47F4991EFE3929005E2033 /* TextBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47F4AF1EFE3929005E2033 /* Build configuration list for PBXNativeTarget "TextBook" */;
+			buildPhases = (
+				EF47F4961EFE3929005E2033 /* Sources */,
+				EF47F4971EFE3929005E2033 /* Frameworks */,
+				EF47F4981EFE3929005E2033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextBook;
+			productName = TextBook;
+			productReference = EF47F49A1EFE3929005E2033 /* TextBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF47F4921EFE3929005E2033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "影孤清";
+				TargetAttributes = {
+					EF47F4991EFE3929005E2033 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X4G4XZKQ74;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF47F4951EFE3929005E2033 /* Build configuration list for PBXProject "TextBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF47F4911EFE3929005E2033;
+			productRefGroup = EF47F49B1EFE3929005E2033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF47F4991EFE3929005E2033 /* TextBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF47F4981EFE3929005E2033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47F4AB1EFE3929005E2033 /* LaunchScreen.storyboard in Resources */,
+				EF47F4A81EFE3929005E2033 /* Assets.xcassets in Resources */,
+				EF47F4A31EFE3929005E2033 /* Main.storyboard in Resources */,
+				EF661C911EFE44DA00C5FC0A /* BookRule.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF47F4961EFE3929005E2033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47F4C21EFE3FD0005E2033 /* RuleFileViewController.swift in Sources */,
+				EF661C991EFE571C00C5FC0A /* AllBookViewController.swift in Sources */,
+				EF47F4B61EFE3E0A005E2033 /* RuleFileTB+CoreDataProperties.swift in Sources */,
+				EF47F4BD1EFE3E1D005E2033 /* RuleFile.swift in Sources */,
+				EF47F4C41EFE405C005E2033 /* BookViewController.swift in Sources */,
+				EF47F4BE1EFE3E1D005E2033 /* YNotification.swift in Sources */,
+				EF47F4A01EFE3929005E2033 /* ViewController.swift in Sources */,
+				EF47F4A61EFE3929005E2033 /* TextBook.xcdatamodeld in Sources */,
+				EF47F4BB1EFE3E1D005E2033 /* AppStatus.swift in Sources */,
+				EF47F49E1EFE3929005E2033 /* AppDelegate.swift in Sources */,
+				EF47F4B51EFE3E0A005E2033 /* RuleFileTB+CoreDataClass.swift in Sources */,
+				EF47F4BC1EFE3E1D005E2033 /* BookEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF47F4A11EFE3929005E2033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF47F4A21EFE3929005E2033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF47F4A91EFE3929005E2033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF47F4AA1EFE3929005E2033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF47F4AD1EFE3929005E2033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF47F4AE1EFE3929005E2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF47F4B01EFE3929005E2033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4G4XZKQ74;
+				INFOPLIST_FILE = TextBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingguqing.TextBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF47F4B11EFE3929005E2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4G4XZKQ74;
+				INFOPLIST_FILE = TextBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingguqing.TextBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF47F4951EFE3929005E2033 /* Build configuration list for PBXProject "TextBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47F4AD1EFE3929005E2033 /* Debug */,
+				EF47F4AE1EFE3929005E2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47F4AF1EFE3929005E2033 /* Build configuration list for PBXNativeTarget "TextBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47F4B01EFE3929005E2033 /* Debug */,
+				EF47F4B11EFE3929005E2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF47F4A41EFE3929005E2033 /* TextBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF47F4A51EFE3929005E2033 /* TextBook.xcdatamodel */,
+			);
+			currentVersion = EF47F4A51EFE3929005E2033 /* TextBook.xcdatamodel */;
+			path = TextBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF47F4921EFE3929005E2033 /* Project object */;
+}

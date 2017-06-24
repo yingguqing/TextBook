@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RuleFileTB" representedClassName="RuleFileTB" syncable="YES">
+        <attribute name="articleEndString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="articleisUtf8" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="articleStartString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookBaseUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryHeaderCutString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directoryIsUtf8" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="directoryRegex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="titleRegexIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="urlRegexIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="websiteDescription" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RuleFileTB" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
